@@ -45,6 +45,7 @@ body {
     position: relative;
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
+    justify-content: center;
 }
 
 a {
@@ -113,22 +114,18 @@ a {
     opacity: 0.9;
 }
 
-.hero {
-    margin-top: 130px;
-}
-
-.hero .infor {
+.hero-wrap .infor {
     width: 51%;
 }
 
-.hero .subtitle {
+.hero-wrap .subtitle {
     color: #687691;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -136,7 +133,7 @@ a {
     line-height: 1.19;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
@@ -144,13 +141,13 @@ a {
     line-height: 1.78;
 }
 
-.hero .hero-btn {
+.hero-wrap .hero-btn {
     margin-top: 40px;
     min-width: 170px;
     border-radius: 12px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
